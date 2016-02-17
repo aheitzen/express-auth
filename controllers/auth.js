@@ -5,7 +5,7 @@ router.get('/signup', function(req, res) {
   res.render('auth/signup');
 });
 
-router.post('/signup', function(req, res) {
+router.post('/signup', function(req, res) { //send out what is typed into the form
   res.send(req.body);
 });
 
