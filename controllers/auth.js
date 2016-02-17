@@ -27,7 +27,7 @@ router.post('/signup', function(req, res) { //send out what is typed into the fo
 
   }).catch(function(err) {
   	res.send(err);
-  })
+  });
 });
 
 router.get('/login', function(req, res) {
